@@ -7,8 +7,8 @@ const sendEmail = async (subject, recivers, htmlContent) => {
   apiKey.apiKey = process.env.BREVO_SMTP_KEY;
 
   const sender = {
-    email: "sales@aviondigital.co.ke",
-    name: "AvionDigital",
+    email: "sales@gbapps.cc",
+    name: "GbApps",
   };
 
   const transactionalEmailApi = new Sib.TransactionalEmailsApi();

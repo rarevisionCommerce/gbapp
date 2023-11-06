@@ -55,6 +55,7 @@ app.use('/payments', require('./routes/paymentRoutes'));
 app.use('/categories', require('./routes/productCategoryRoutes'));
 app.use('/aboutus', require('./routes/aboutUsRoutes'));
 app.use('/message', require('./routes/messageRoutes'));
+app.use('/quote', require('./routes/quoteRoutes'));
 
 
 
